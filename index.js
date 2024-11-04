@@ -3,7 +3,7 @@ const app = express();
 const http = require("http");
 const cors = require("cors");
 let score = 0;
-app.use(cors());
+
 
 app.use(cors({
   origin: "*",
